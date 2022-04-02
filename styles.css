@@ -1,0 +1,107 @@
+:root {
+    --main-color: #DBD8F0;
+    --accent-color1: #EAC5D8;
+    --accent-color2: #7FBEEB;
+    --text-color: #1F0322;
+    --button-color: #AFBED1;
+}
+
+* {
+margin:0;
+padding:0;  
+}
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.navlist li {
+    display: inline;
+    list-style: none;
+    padding: 0.6em;
+}
+
+nav {
+    background-color: var(--accent-color1);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 3px var(--text-color) solid;
+}
+
+.nav {
+    text-align: right;
+}
+
+ul {
+    padding: .4rem;
+    margin: 1rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.6em;
+}
+
+a {
+    text-decoration: none;
+    background-color: var(--button-color);
+    border: var(--text-color) solid;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: var(--text-color);
+}
+main {
+    /* position: relative; */
+    top: 50rem;
+}
+
+.bitmoji {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 1.2;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    background-color: var(--button-color);
+    font-size: 1.5rem;
+    padding: .8em;
+    border-radius: .3em;
+}
+
+footer {
+    background-color: var(--accent-color1);
+    height: 2em;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: .8em;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
